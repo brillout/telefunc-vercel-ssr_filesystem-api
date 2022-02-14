@@ -13,32 +13,6 @@ export default async function handler(req, res) {
 
   console.log("Request to url:", url);
 
-  if (url === "/a1") {
-    res.statusCode = 200;
-    res.setHeader("content-type", "text/plain");
-    res.end("a1");
-    return;
-  }
-  if (url === "/_a2") {
-    res.statusCode = 200;
-    res.setHeader("content-type", "text/plain");
-    res.end("_a2");
-    return;
-  }
-  /*
-  if (url === "/a3") {
-    const httpResponse = await telefunc({
-      url: '_telefunc',
-      method: 'POST',
-      body: req.body,
-    });
-    const { body, statusCode, contentType } = httpResponse;
-    res.statusCode = statusCode;
-    res.setHeader("content-type", contentType);
-    res.end(body);
-    return;
-  }
-  */
   if (url === "/_telefunc") {
     const rawBody = await text(req);
     const httpResponse = await telefunc({
