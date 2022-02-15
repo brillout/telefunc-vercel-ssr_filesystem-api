@@ -8,7 +8,7 @@ specifiers:
   esbuild: ^0.13.12
   express: ^4.17.1
   micro: ^9.3.4
-  telefunc: ^0.1.13-beta.0
+  telefunc: ^0.1.13-beta.2
   vite: ^2.7.2
   vite-plugin-ssr: 0.3.53
   vue: ^3.2.24
@@ -21,7 +21,7 @@ dependencies:
   esbuild: 0.13.15
   express: 4.17.2
   micro: 9.3.4
-  telefunc: 0.1.13-beta.0
+  telefunc: 0.1.13-beta.2
   vite: 2.8.1
   vite-plugin-ssr: 0.3.53_vite@2.8.1
   vue: 3.2.31
@@ -1099,8 +1099,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /telefunc/0.1.13-beta.0:
-    resolution: {integrity: sha512-aI2WN1s41qCbL/lvWQldBXLkn9lEy4MyNJy77GsDKlBxuNy5VP/ux5mOvAmij8TseQBHuJuiVfVFF5pCQfl01g==}
+  /telefunc/0.1.13-beta.2:
+    resolution: {integrity: sha512-qcbEMUSBw8sCvxT/+BwVTWNjTO/cyCUWFgd+RnD/BhUuGIbJMU6RH9d0ira/oB7QjxLpmlTHu8arM0esDC5IHg==}
     dependencies:
       '@brillout/json-s': 0.4.3
       '@brillout/libassert': 0.5.4
