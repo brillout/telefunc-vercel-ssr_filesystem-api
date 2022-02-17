@@ -1,10 +1,10 @@
 <template>
-  <h1>Hello from Vercel - 9</h1>
+  <h1>Hello from Vercel</h1>
   This page is:
   <ul>
     <li>Rendered to HTML.</li>
     <li>Interactive: <Counter /></li>
-    <li>Uses Telefunc: <Hello /></li>
+    <li>Using Telefunc: <Hello /></li>
   </ul>
 </template>
 
